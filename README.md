@@ -22,6 +22,8 @@ Then insert the following at the bottom on a new line:
 
 Note: It's important to cd into the script directory, since the script searches through the directory you specify for .ini files.
 
+Also, there is a bit of configuration required to send emails. You will need to configure a gmail account to allow Python to send emails.  [This site](https://stackabuse.com/how-to-send-emails-with-gmail-using-python/) has a good tutorial under the "Authenticating with Gmail" header. 
+
 
 ## Setup
 
