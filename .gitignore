@@ -1,0 +1,6 @@
+# Ignore:
+*.ini
+*.backup
+
+# Except:
+!alert-yeeter-template.ini
