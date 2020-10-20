@@ -22,8 +22,9 @@ def main(cf):  # Compares the old hash in your config to the new hash
         sys.exit()
     else:
         alert(cf)
+        overwrite(cf,new)
 
-def overwrite(cf):  # Replaces the old hash with the new hash
+def overwrite(cf,new):  # Replaces the old hash with the new hash
     config.set('Results', 'value', new)
     with open(cf, 'w') as cf:
         config.write(cf)
