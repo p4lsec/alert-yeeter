@@ -45,7 +45,7 @@ def alert(cf):  # Sends an email alert
 
 if __name__ == "__main__": 
     for cf in os.listdir():
-        if '.ini' in cf:
+        if '.ini' in cf and cf != 'alert-yeeter-template.ini':
             config = configparser.ConfigParser()
             config.read(cf)
             old = config['Results']['Value']
