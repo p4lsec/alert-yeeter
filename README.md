@@ -40,7 +40,7 @@ pip3 install lxml requests
 ```
 
 ## Preconfigure
-Before starting, you will need to configure your .ini config file.  The template file is self-explanatory, but for a good tutorial on XPath, see [this walkthrough](https://blog.scrapinghub.com/2016/10/27/an-introduction-to-xpath-with-examples).  Your final XPath should look like this:
+Before starting, you will need to configure your .ini config file.  The template file is self-explanatory, but for a good tutorial on XPath, see [this walkthrough](https://blog.scrapinghub.com/2016/10/27/an-introduction-to-xpath-with-examples).  Your final config should look like this:
 
 ![config file example](https://p4lsec.files.wordpress.com/2020/10/dar.ini_.jpg)
 
