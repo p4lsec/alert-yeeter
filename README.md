@@ -16,7 +16,7 @@ crontab -e
 
 Then insert the following at the bottom on a new line:
 
-````
+```
 0 */1 * * * cd /home/$USER/Scripts/alert-yeeter && python3 alert-yeeter.py
 ```
 
