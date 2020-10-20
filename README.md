@@ -42,7 +42,7 @@ Before starting, you will need to configure your .ini config file.  The template
 
 ![config file example](https://p4lsec.files.wordpress.com/2020/10/dar.ini_.jpg)
 
-## Execution
+## Example
 
 To run the script manually, navigate to the directory, and run:
 
